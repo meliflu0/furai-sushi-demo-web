@@ -15,5 +15,11 @@ export default defineConfig({
   // Override Nitro preset to use Vercel instead of Cloudflare
   nitro: {
     preset: "vercel",
+    vercel: {
+      // Ensure proper routing for Vercel deployment
+      functions: {
+        runtime: "nodejs24.x",
+      },
+    },
   },
 });

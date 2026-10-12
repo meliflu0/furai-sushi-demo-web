@@ -2,11 +2,11 @@ import { r as __toESM } from "../_runtime.mjs";
 import { a as whatsappUrl, i as photos, n as gallery, r as navigation, t as furai } from "./furai-CAYHJePC.mjs";
 import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
 import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
-import { a as MapPin, c as ArrowUp, d as ArrowLeft, f as ArrowDown, i as Menu, l as ArrowUpRight, n as Wifi, o as Dog, r as MessageCircle, s as Car, t as X, u as ArrowRight } from "../_libs/lucide-react.mjs";
+import { a as ArrowRight, i as ArrowUpRight, n as MessageCircle, o as ArrowLeft, r as Menu, s as ArrowDown, t as X } from "../_libs/lucide-react.mjs";
 import { a as DialogOverlay, i as DialogDescription, l as Slot, n as DialogClose, o as DialogPortal, r as DialogContent, s as DialogTitle, t as Dialog } from "../_libs/@radix-ui/react-dialog+[...].mjs";
 import { n as clsx, t as cva } from "../_libs/class-variance-authority+clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-DZR58rXx.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-CwRWjU0H.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function cn(...inputs) {
@@ -508,110 +508,6 @@ function Index() {
 					})
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Gallery, {}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-					id: "eventos",
-					className: "section events",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "wrap",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "events-inner reveal",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "eyebrow",
-									children: "Ocasiones especiales"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { children: ["Hay momentos que merecen ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("em", { children: "algo diferente." })] }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "prose",
-									children: furai.text.events
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "event-contexts",
-									children: [
-										{
-											name: "CELEBRACIONES",
-											text: "Para ocasiones especiales."
-										},
-										{
-											name: "ENCUENTROS",
-											text: "Para compartir una experiencia gastronómica."
-										},
-										{
-											name: "EVENTOS EMPRESARIALES",
-											text: "Para consultar posibilidades con el restaurante."
-										}
-									].map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: item.name }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: item.text })] }, item.name))
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ReserveLink, {
-									text: "RESERVAR OMAKASE",
-									href: "https://reservation.carbonaraapp.com/Colombia/Villavicencio/Furai-Omakase/"
-								})
-							]
-						})
-					})
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-					id: "ubicacion",
-					className: "section location light-section",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "wrap location-grid",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "reveal",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "eyebrow",
-									children: "Encuéntranos"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-									className: "section-title",
-									children: [
-										"Villavicencio,",
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("em", { children: "Meta." })
-									]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "address",
-									children: furai.address
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "hours",
-									children: furai.hours
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-									asChild: true,
-									variant: "editorial",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-										href: furai.maps,
-										target: "_blank",
-										rel: "noopener noreferrer",
-										children: ["Cómo llegar ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, {})]
-									})
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "services",
-									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Car, {}), "Estacionamiento en el lugar"] }),
-										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Wifi, {}), "Wi-Fi"] }),
-										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Dog, {}), "Perros en el interior"] })
-									]
-								})
-							]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "reveal",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("iframe", {
-								className: "location-map",
-								title: "Mapa de la ubicación indicada por Furai Omakase",
-								src: "https://maps.google.com/maps?q=4.101763,-73.656005&z=16&output=embed",
-								loading: "lazy",
-								referrerPolicy: "no-referrer-when-downgrade"
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "map-caption",
-								children: "Ubicación indicada por el negocio. Coordenadas aproximadas."
-							})]
-						})]
-					})
-				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 					className: "final-cta",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
@@ -648,98 +544,6 @@ function Index() {
 					})]
 				})
 			]
-		}),
-		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
-			className: "site-footer",
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "wrap",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "footer-grid",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "footer-brand",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-									href: "#inicio",
-									"aria-label": "Furai Omakase, volver al inicio",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-										src: furai.logo,
-										alt: "Logo oficial de Furai",
-										width: 100,
-										height: 100,
-										loading: "lazy"
-									})
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { children: "Furai Omakase." }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: furai.claim })
-							]
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-							className: "footer-heading",
-							children: "EXPLORA"
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", {
-							className: "footer-links",
-							"aria-label": "Navegación del pie",
-							children: [...navigation, {
-								href: "#reservas",
-								label: "Reservas"
-							}].map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: item.href,
-								children: item.label
-							}, item.href))
-						})] }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "footer-contact",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "footer-heading",
-									children: "VISÍTANOS"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: furai.address }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Todos los días, de 4:00 p. m. a 11:00 p. m." }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-									href: whatsappUrl(furai.reservationMessage),
-									target: "_blank",
-									rel: "noopener noreferrer",
-									children: ["WhatsApp · ", furai.phone]
-								})
-							]
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-							className: "footer-heading",
-							children: "SÍGUENOS"
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "footer-links",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-									href: furai.instagram,
-									target: "_blank",
-									rel: "noopener noreferrer",
-									children: "Instagram ↗"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-									href: furai.tiktok,
-									target: "_blank",
-									rel: "noopener noreferrer",
-									children: "TikTok ↗"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-									href: furai.menu,
-									target: "_blank",
-									rel: "noopener noreferrer",
-									children: "Menú digital ↗"
-								})
-							]
-						})] })
-					]
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "footer-bottom",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "© 2026 Furai Omakase. Todos los derechos reservados." }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-						href: "#inicio",
-						children: ["Volver al inicio ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUp, {})]
-					})]
-				})]
-			})
 		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 			className: "whatsapp-float",
