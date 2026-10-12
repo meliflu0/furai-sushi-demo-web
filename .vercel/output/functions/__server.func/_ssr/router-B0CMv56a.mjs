@@ -1,45 +1,11 @@
-import { r as __toESM } from "../_runtime.mjs";
 import { t as furai } from "./furai-BU7dSM-3.mjs";
-import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
 import { _ as createFileRoute, b as useRouter, d as Scripts, f as HeadContent, g as lazyRouteComponent, h as Outlet, m as createRouter, v as createRootRouteWithContext, y as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CiQSBa_d.js
-var import_react = /* @__PURE__ */ __toESM(require_react());
+//#region node_modules/.nitro/vite/services/ssr/assets/router-B0CMv56a.js
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-BTU53LxD.css";
-function reportLovableError(error, context = {}) {
-	if (typeof window === "undefined") return;
-	window.__lovableEvents?.captureException?.(error, {
-		source: "react_error_boundary",
-		route: window.location.pathname,
-		...context
-	}, {
-		mechanism: "react_error_boundary",
-		handled: false,
-		severity: "error"
-	});
-	const stack = error instanceof Error ? error.stack : void 0;
-	window.__lovableReportRuntimeError?.({
-		message: describeThrown(error),
-		...stack !== void 0 && { stack },
-		filename: window.location.pathname
-	});
-}
-var MAX_SERIALIZED_LENGTH = 2e3;
-function describeThrown(error) {
-	if (error instanceof Response) return `Response ${error.status}${error.url ? ` at ${error.url}` : ""}`;
-	if (error instanceof Error) return error.message;
-	if (typeof error === "string") return error;
-	const { message } = error ?? {};
-	if (typeof message === "string" && message.length > 0) return message;
-	try {
-		return JSON.stringify(error)?.slice(0, MAX_SERIALIZED_LENGTH) ?? String(error);
-	} catch {
-		return String(error);
-	}
-}
+var styles_default = "/assets/styles-BZuuK6-q.css";
 function NotFoundComponent() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 		className: "flex min-h-screen items-center justify-center bg-background px-4",
@@ -73,9 +39,6 @@ function NotFoundComponent() {
 function ErrorComponent({ error, reset }) {
 	console.error(error);
 	const router = useRouter();
-	(0, import_react.useEffect)(() => {
-		reportLovableError(error, { boundary: "tanstack_root_error_component" });
-	}, [error]);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 		className: "flex min-h-screen items-center justify-center bg-background px-4",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
