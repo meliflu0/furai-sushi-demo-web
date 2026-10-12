@@ -1,14 +1,14 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/furai-CAYHJePC.js
-var omakase_hero_default = "/assets/omakase-hero-CaMwGlV1.jpg";
-var chef_hands_default = "/assets/chef-hands-Dh0kvGwv.jpg";
-var nigiri_detail_default = "/assets/nigiri-detail-DKnnXIX1.jpg";
-var counter_reference_default = "/assets/counter-reference-CNf08SBf.jpg";
-var furai_logo_default = "/assets/furai-logo-xWbtzsPK.png";
-var galeria1_default = "/assets/galeria1-DANHcEij.webp";
-var galeria2_default = "/assets/galeria2-AT8uBfOj.webp";
-var galeria3_default = "/assets/galeria3-4WhDhGXu.webp";
-var menu_default = "/assets/menu-DaNbOQyk.webp";
-var filosofia_default = "/assets/filosofia-CrqJ9y17.webp";
+//#region node_modules/.nitro/vite/services/ssr/assets/furai-BU7dSM-3.js
+var hero = "/omakase-hero.jpg";
+var hands = "/chef-hands.jpg";
+var nigiri = "/nigiri-detail.jpg";
+var counter = "/counter-reference.jpg";
+var logo = "/furai-logo.png";
+var galeria1 = "/galeria1.webp";
+var galeria2 = "/galeria2.webp";
+var galeria3 = "/galeria3.webp";
+var menu = "/menu.webp";
+var filosofia = "/filosofia.webp";
 var furai = {
 	name: "Furai Omakase",
 	claim: "El primer omakase de Villavicencio.",
@@ -24,7 +24,7 @@ var furai = {
 		longitude: -73.656005
 	},
 	maps: "https://www.google.com/maps/dir/?api=1&destination=4.101763%2C-73.656005",
-	logo: furai_logo_default,
+	logo,
 	reservationMessage: "Hola, Furai Omakase. Me gustaría consultar una reserva. ¿Podrían indicarme la disponibilidad y las condiciones?",
 	eventsMessage: "Hola, Furai Omakase. Me gustaría recibir información sobre celebraciones, encuentros o eventos empresariales. ¿Podrían contarme las opciones y condiciones?",
 	text: {
@@ -38,30 +38,30 @@ var furai = {
 	}
 };
 var photos = {
-	hero: omakase_hero_default,
-	hands: chef_hands_default,
-	nigiri: nigiri_detail_default,
-	counter: counter_reference_default,
-	menu: menu_default,
-	filosofia: filosofia_default
+	hero,
+	hands,
+	nigiri,
+	counter,
+	menu,
+	filosofia
 };
 var gallery = [
 	{
-		src: galeria1_default,
+		src: galeria1,
 		alt: "Imagen ilustrativa de manos preparando un nigiri en una barra japonesa",
 		label: "El cuidado",
 		width: 1024,
 		height: 1280
 	},
 	{
-		src: galeria2_default,
+		src: galeria2,
 		alt: "Imagen ilustrativa de la textura de un nigiri sobre cerámica artesanal",
 		label: "La textura",
 		width: 1024,
 		height: 1280
 	},
 	{
-		src: galeria3_default,
+		src: galeria3,
 		alt: "Referencia ilustrativa de una barra japonesa cálida; no corresponde al interior real de Furai",
 		label: "La atmósfera",
 		width: 1536,
