@@ -1,13 +1,13 @@
-import hero from "@/assets/omakase-hero.jpg";
-import hands from "@/assets/chef-hands.jpg";
-import nigiri from "@/assets/nigiri-detail.jpg";
-import counter from "@/assets/counter-reference.jpg";
-import logo from "@/assets/furai-logo.png";
-import galeria1 from "@/assets/galeria1.webp";
-import galeria2 from "@/assets/galeria2.webp";
-import galeria3 from "@/assets/galeria3.webp";
-import menu from "@/assets/menu.webp";
-import filosofia from "@/assets/filosofia.webp";
+const hero = "/omakase-hero.jpg";
+const hands = "/chef-hands.jpg";
+const nigiri = "/nigiri-detail.jpg";
+const counter = "/counter-reference.jpg";
+const logo = "/furai-logo.png";
+const galeria1 = "/galeria1.webp";
+const galeria2 = "/galeria2.webp";
+const galeria3 = "/galeria3.webp";
+const menu = "/menu.webp";
+const filosofia = "/filosofia.webp";
 
 export const furai = {
   name: "Furai Omakase",
@@ -21,7 +21,7 @@ export const furai = {
   tiktok: "https://www.tiktok.com/@furai.omakase",
   coordinates: { latitude: 4.101763, longitude: -73.656005 },
   maps: "https://www.google.com/maps/dir/?api=1&destination=4.101763%2C-73.656005",
-  logo: logo,
+  logo,
   reservationMessage: "Hola, Furai Omakase. Me gustaría consultar una reserva. ¿Podrían indicarme la disponibilidad y las condiciones?",
   eventsMessage: "Hola, Furai Omakase. Me gustaría recibir información sobre celebraciones, encuentros o eventos empresariales. ¿Podrían contarme las opciones y condiciones?",
   text: {
